@@ -8,7 +8,7 @@ function alterarStatus(id) {
 
 
     if (imagem.classList.contains('dashboard__item__img--rented')) {
-        // Adiciona uma confirmação antes de devolver o jogo
+        // Adiciona uma confirmação para de devolver o jogo
         if (confirm(`Você tem certeza que deseja devolver o jogo ${nomeJogo.textContent}?`)) {
             imagem.classList.remove('dashboard__item__img--rented');
             botao.classList.remove('dashboard__item__button--return');
